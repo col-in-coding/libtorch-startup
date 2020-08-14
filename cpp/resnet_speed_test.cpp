@@ -49,8 +49,8 @@ int main(int argc, const char *argv[])
 
     /**
      * Libtorch run pytorch Resnet34 model in 1000 loops:
-     *  1 Bat:  721 Mib,   5.70 sec
-     * 32 Bat: 1781 Mib,  84.04 sec
-     * 64 Bat: 2799 Mib, 170.60 Sec
+     * BatSize  1:  721 Mib,   5.70 sec
+     * BatSize 32: 1781 Mib,  84.04 sec
+     * BatSize 64: 2799 Mib, 170.60 Sec
      */
 }

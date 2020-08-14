@@ -19,7 +19,6 @@ end = time.time()
 print("time consuming: ", end - start)
 
 # Pytorch Resnet34 in 1000 loops:
-#  1 Bat:  635 Mib,   6.72 sec
-# 32 Bat: 2715 Mib,  84.63 sec
-# 64 Bat: 4839 Mib, 166.51 sec
-# 
+# BatSize  1:  635 Mib,   6.72 sec
+# BatSize 32: 2715 Mib,  84.63 sec
+# BatSize 64: 4839 Mib, 166.51 sec
